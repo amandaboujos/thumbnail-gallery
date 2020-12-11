@@ -1,0 +1,29 @@
+.thumbnail-gallery {
+    width: 408px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  img {
+    border-top: 3px solid grey;
+    border-left: 1px solid grey;
+  }
+  
+  .imgs img {
+    width: 100px;
+    height: 90px;
+    float: left;
+    margin: 1px 1px 0px 0px;
+    cursor: pointer;
+  }
+  
+  .imgs img:nth-of-type(4) {
+    margin-right: 0px;
+  }
+  
+  .main {
+    width: 407px;
+    height: 400px;
+    display: block;
+  }
